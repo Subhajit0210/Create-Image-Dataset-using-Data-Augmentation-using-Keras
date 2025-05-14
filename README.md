@@ -44,8 +44,9 @@ This section defines the `ImageDataGenerator` object, which is central to the im
 
 These parameters are set to introduce controlled variations into the image data, helping to increase the size and diversity of the training dataset (if this were used for model training) and potentially improve model generalization. You can adjust these parameters to experiment with different augmentation strategies.
 
+## Generating and Saving Augmented Images
 
-
+The core of the image augmentation process is handled by the `.flow()` method of the `ImageDataGenerator`. This method takes the input image data as a NumPy array (`x`) and generates batches of randomly transformed images based on the configuration defined earlier. The `batch_size` parameter, set to 1 in this case, determines the number of augmented images yielded per iteration. The `save_to_dir` parameter is crucial as it specifies the `preview_directory` where the generated images will be automatically saved. To help identify the origin of the augmented files, a `save_prefix` ('dog') is added to each filename, and the output format is set to `jpeg` using `save_format`. The subsequent `for` loop iterates over the batches produced by `.flow()`. Within this loop, each generated augmented image is saved to the specified directory. A condition `if i > 20: break` is implemented to limit the total number of augmented images generated and saved to 20. This is a practical measure to prevent the generator from looping indefinitely and creating an excessive number of files. This entire process effectively applies the configured random transformations to the input image, resulting in a collection of diverse augmented image samples stored in the output directory. The number of generated images can be easily adjusted by modifying the loop's breaking condition.
 
 
 
