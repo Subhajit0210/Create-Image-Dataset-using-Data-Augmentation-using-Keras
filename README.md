@@ -33,6 +33,7 @@ It takes the original image and creates 20 slightly different versions of it by 
 
 ## Reference and Inspiration
 This repository is based on the concepts presented in the Keras blog post:
+
 [Building powerful image classification models using very little data](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
 
 The article demonstrates how to effectively train image classification models even with a small dataset by leveraging Keras' built-in data augmentation techniques. This repository applies those principles to show how image datasets can be created and expanded using augmentation, enabling better model performance and generalization in low-data scenarios.
