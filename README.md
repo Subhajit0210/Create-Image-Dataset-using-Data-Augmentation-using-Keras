@@ -34,21 +34,22 @@ It takes the original image and creates 20 slightly different versions of it by 
 ## Reference and Inspiration
 This repository is based on the concepts presented in the Keras blog post:
 [Building powerful image classification models using very little data](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
+
 The article demonstrates how to effectively train image classification models even with a small dataset by leveraging Keras' built-in data augmentation techniques. This repository applies those principles to show how image datasets can be created and expanded using augmentation, enabling better model performance and generalization in low-data scenarios.
 
 ## Usage
 To run the project, follow these steps:
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Face-Mask-Detection-using-CNN.git
+git clone https://github.com/yourusername/Create-Image-Dataset-using-Data-Augmentation-using-Keras.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd Face-Mask-Detection-using-CNN
+cd Dog-&-Cat-CNN
 ```
 4. Run the Jupyter notebook:
 ```bash
-jupyter notebook Face_Mask_Detection_using_CNN.ipynb
+jupyter notebook Dog & Cat CNN.ipynb
 ```
 
 ## Contributing
