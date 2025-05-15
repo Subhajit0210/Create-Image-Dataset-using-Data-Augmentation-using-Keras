@@ -15,8 +15,7 @@
 The project takes an input image (`dog_or_cat_1.jpg`) and applies various random transformations (rotation, shifting, shearing, zooming, flipping) to generate augmented versions of the image. The augmented images are saved to a directory named `preview_directory`.
 
 ## Dependencies
-The following libraries are required to run this project:
-- Python 3
+The following library is required to run this project:
 - TensorFlow
 
 ## Preparing the Save Location
