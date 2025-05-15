@@ -18,7 +18,6 @@ The project takes an input image (`dog_or_cat_1.jpg`) and applies various random
 The following libraries are required to run this project:
 - Python 3
 - TensorFlow
-- Keras
 
 ## Preparing the Save Location
 Checks where the script is running and then creates a new folder named `preview_directory` there. If the folder already exists, it just moves on. This is done to make sure there's a place to save the new augmented images.
